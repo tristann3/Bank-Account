@@ -37,8 +37,10 @@ joi_account = BankAccount("Joi Anderson")
 
 tristan_account.deposit(100)
 tristan_account.print_receipt()
+
 tristan_account.add_interest()
 tristan_account.print_receipt()
+
 tristan_account.withdraw(1000)
 tristan_account.print_receipt()
 
